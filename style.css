@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body{
+  font-family: 'Dosis', sans-serif;
+  font-size:1.5em;
+  background-image:linear-gradient(rgba(5, 102, 141, 0.8), rgba(0, 168, 150,0.8)), url(https://i.pinimg.com/originals/37/bd/ca/37bdcaa60a57309c7a5bdee11c59b2d7.gif);
+  position:relative;
+  background-size:cover;
+  color:white;
+}
+header{
+  text-align:center;
+}
+
+#survey-form{
+  max-width:960px;
+  margin: 0 auto;
+  background-color:rgba(2, 43, 59, 0.9);
+  border-radius:2%;
+  padding:1em;
+}
+
+input[type='number']{
+  width:99%;
+}
+#name{
+  width:99%;
+}
+#email{
+  width:99%;
+}
+textarea{
+  width:98%;
+  height:100px;
+}
+button{
+  width:99%;
+  background:#00A896;
+  border-width:0px;
+  color:white;
+}
+button:active{
+  cursor:pointer;
+  background:#02C39A;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+footer{
+  width:960px;
+  margin: auto;
+}
